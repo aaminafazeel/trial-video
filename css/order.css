@@ -1,0 +1,65 @@
+/* Container styles */
+.container {
+    max-width: 800px; /*  max-width for  readability */
+    margin: 50px auto;
+    padding: 40px; /*  padding for  spacing */
+    background-color: #f4f7f6; /* Lightened background color for  contrast */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /*  box shadow for depth */
+}
+
+.container h2 {
+    font-size: 2.5rem;
+    color: #2e6538;
+    margin-bottom: 30px; /*  margin bottom for better separation */
+    text-align: center;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* gap between form elements */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.1rem; /*font size for better readability */
+    font-weight: 600; /* font weight for emphasis */
+    margin-bottom: 10px; /* margin bottom for better separation */
+    color: #1c2833;
+}
+
+input,
+select,
+textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    padding: 15px 30px; /* Increased padding for better button size */
+    font-size: 1.2rem;
+    background-color: #4eb060;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center; /* Center-align the button */
+}
+
+.submit-btn:hover {
+    background-color: #1c2833;
+}
